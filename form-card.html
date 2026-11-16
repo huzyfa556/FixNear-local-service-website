@@ -1,0 +1,33 @@
+<!-- Kisi bhi page me paste karo (style.css + contact.js us page me link ho) -->
+        <form class="form-card" id="contact-form" novalidate>
+            <h2 class="form-card-title">Send Us a Message</h2>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="03........." required>
+
+            <label for="email">Email (optional)</label>
+            <input type="email" id="email" name="email" placeholder="Your Gmail">
+
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option>Electrician</option>
+                <option>Plumber</option>
+                <option>Mechanic</option>
+                <option>AC Technician</option>
+                <option>Other</option>
+            </select>
+
+                        <label for="location">Location</label>
+            <input type="text" id="location" name="location" placeholder="Your area / address (e.g. Gulshan, Karachi)" autocomplete="street-address" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what you need help with" required></textarea>
+
+            <p class="form-error" id="form-error" role="alert" hidden></p>
+            <button class="form-card-btn" type="submit">Send Message</button>
+            <p class="form-success" id="form-success" role="status" hidden>&#10003; Thank you! Your message has been received. We will contact you soon.</p>
+        </form>

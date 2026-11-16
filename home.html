@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css?v=2">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="nav.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <img src="header-logo.jpg" onclick="window.location.href='home.html'" alt="FixNear logo">
+            <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links"><span class="dots"><i></i><i></i><i></i></span></button>
+            <div class="nav-links" id="nav-links">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contactus.html">Contact Us</a>
+                <div class="nav-dropdown">
+                    <a href="workers.html" class="nav-drop-link">Workers</a>
+                    <div class="nav-submenu">
+                        <a href="workers.html?service=Electrician">Electrician</a>
+                        <a href="workers.html?service=Plumber">Plumber</a>
+                        <a href="workers.html?service=Mechanic">Mechanic</a>
+                        <a href="workers.html?service=AC%20Technician">AC Technician</a>
+                    </div>
+                </div>
+                <a href="help.html">Help</a>
+                <a href="account.html">Sign Up / Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <h1 ><strong>Benvenuto  &#128075;</strong></h1>
+        <h2>Your needs just around the corner</h2>
+        <h2>Find Trusted Services Near You!</h2>
+        <h4>Need help with home repairs? Find skilled and <br>trusted professionals near your location.</h4>
+       <button class="button" onclick="window.location.href='services.html'">Find More</button>
+    </div>
+
+<hr>
+    <div>
+        <h2 style="color:orange;" class="pop"> <strong>Our popular Services</strong></h2>
+    </div>
+
+    <div class="cards-container">
+        <div class="card">
+            <img class="img" src="AC.jpg" alt="AC Service">
+            <h2 style="color: orange;"> <strong>AC services</strong></h2>
+            <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur similique laborum atque dolorum
+                reprehenderit eius nulla ab, assumenda dolor ipsa, aperiam earum qui omnis hic illo quae impedit optio?
+            </p>
+             <button class="button" onclick="window.location.href='services.html'">Find Services</button>
+        </div>
+
+        <div class="card">
+            <h1 style="color: orange;">FixNear makes everyday <br>tasks easier <br>by connecting people <br> with <br>trusted local workers.
+                <br> Choose a service, <br> submit your request, <br>and let available <br>workers accept it.
+                <br>Simple, fast, and <br>convenient!</h1>
+        </div>
+
+        <div class="card">
+            <h1 style="color: orange;">FixNear is your trusted platform <br> for everyday services.
+                Whether you need help with <br>small tasks, deliveries, <br> or
+                local services, <br>FixNear connects you with <br>available workers
+                quickly <br> and easily.
+                Simply choose your <br>service, submit your request,
+                and let a worker <br>take care of the rest.
+                Fast, <br>simple,
+                and
+                reliable!</h1>
+        </div>
+
+        <div class="card">
+            <img class="img" src="ati_blog_electrical-technician_hero.jpg" alt="Electrician Service">
+            <h2 style="color: orange;"> <strong>Electrician </strong></h2>
+            <p style="color: white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur similique laborum atque dolorum
+                reprehenderit eius nulla ab, assumenda dolor ipsa, aperiam earum qui omnis hic illo quae impedit optio?
+            </p>
+            <button class="button" onclick="window.location.href='services.html'">Find Services</button>
+
+        </div>
+
+    </div>
+
+<hr>
+    <div>
+            <h1 style="padding: 10px; text-align: center; color: orange; "><strong>Our motive</strong></h1>     
+            <h2 style="text-align: center; color:  rgb(63, 125, 240)">Our motive at FixNear is to make everyday life easier by connecting people who need help with workers who
+            are ready to provide it. We aim to save people's time, create work opportunities, and make local services
+            simple, fast, and accessible for everyone.</h2>
+
+    </div>
+    <hr>
+   <div class="video-container">
+
+    <h1 style="text-align: center; color: orange;">
+        <strong>AC Service</strong>
+    </h1>
+
+    <h3 style="text-align: center; color: rgb(63, 125, 240);">
+        Professional AC repair and maintenance services at your doorstep
+    </h3>
+
+    <video controls playsinline preload="metadata" poster="ac-poster.jpg">
+        <source src="ac-service.mp4" type="video/mp4">
+    </video>
+
+    <button class="button3" onclick="window.location.href='services.html'">
+        Find Services
+    </button>
+
+</div>
+<hr>
+    <div class="video-container">
+
+    <h1 style="text-align: center; color: orange;">
+        <strong>Electrician Service</strong>
+    </h1>
+
+    <h3 style="text-align: center; color: rgb(63, 125, 240);">
+        Safe and reliable electrical repair and installation at your doorstep
+    </h3>
+
+    <video controls playsinline preload="metadata" poster="ati_blog_electrical-technician_hero.jpg">
+        <source src="electrician-service.mp4" type="video/mp4">
+    </video>
+
+    <button class="button3" onclick="window.location.href='services.html'">
+        Find Services
+    </button>
+
+</div>
+
+    <footer class="footer">
+        <p>&copy; 2026 FixNear &mdash; Local Solutions, Right Now.</p>
+        <p class="copyright">Developed by Syed Huzaifa</p>
+    </footer>
+
+</body>
+
+</html>
